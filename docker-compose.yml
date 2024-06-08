@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+    
+  postgres:
+    ports:
+      - "5432:5432"
+    image: postgres:latest
+    container_name: 'postgres'
+    networks: 
+      - net
+    restart: unless-stopped
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    environment:
+      TZ: "America/Sao_Paulo"
+      PGTZ: 'America/Sao_Paulo'
+      POSTGRES_USER: postgres
+      POSTGRES_DB: vans
+      POSTGRES_PASSWORD: postgres
+    command: ["postgres","-c","max_connections=1500", "-c", "max_prepared_transactions=64", "-c", "log_statement=all"]
+
+volumes:
+  postgres-data:
+  
+  # data01:
+
+networks: 
+  net:
+    driver: bridge
+

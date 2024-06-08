@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyVan.Api", "EasyVan.Api\EasyVan.Api.csproj", "{BF7706C4-2394-4B4D-8BCC-9ABC17634C43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyVan.Core", "EasyVan.Core\EasyVan.Core.csproj", "{E1F97003-5A95-487D-A686-EFBF9D31BFBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyVan.Web", "EasyVan.Web\EasyVan.Web.csproj", "{781139F9-8506-4023-BB32-D842B9DBABA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF7706C4-2394-4B4D-8BCC-9ABC17634C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7706C4-2394-4B4D-8BCC-9ABC17634C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7706C4-2394-4B4D-8BCC-9ABC17634C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7706C4-2394-4B4D-8BCC-9ABC17634C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F97003-5A95-487D-A686-EFBF9D31BFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F97003-5A95-487D-A686-EFBF9D31BFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F97003-5A95-487D-A686-EFBF9D31BFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F97003-5A95-487D-A686-EFBF9D31BFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{781139F9-8506-4023-BB32-D842B9DBABA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781139F9-8506-4023-BB32-D842B9DBABA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781139F9-8506-4023-BB32-D842B9DBABA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781139F9-8506-4023-BB32-D842B9DBABA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
